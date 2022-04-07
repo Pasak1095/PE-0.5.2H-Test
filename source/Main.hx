@@ -70,7 +70,7 @@ class Main extends Sprite
 		}
 
 		#if !debug
-		initialState = TitleState;
+		initialState = StartupState;
 		#end
 	
 		ClientPrefs.loadDefaultKeys();
